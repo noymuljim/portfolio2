@@ -208,3 +208,22 @@ main section{
 .resume-right-side p{
   font-size: 16px;
 }
+.resume-download-cv{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+/* footer design  */
+.footer{
+  display: flex;
+  margin: 130px 230px;
+}
+.footer-left h1{
+font-size: 35px;
+font-weight: bold;
+}
+.footer-left p{
+  font-size: 16px;
+  /* font-weight:  */
+}
