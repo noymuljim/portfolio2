@@ -6,6 +6,20 @@
 }
 
 /* shared design  */
+/* section{
+  margin: 50px 230px 50px 230px;
+
+} */
+
+.section-heading{
+  font-size:35px ;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size:18px ;
+  color: #757575;
+}
 .color-dark-3 {
   color: #757575;
 }
@@ -69,7 +83,7 @@ nav li {
 }
 
 header {
-  background-image: url('../assets/developer.png'),url('../assets/header_bg.png');
+  background-image: url('../assets/developer.png'), url('../assets/header_bg.png');
   background-repeat: no-repeat;
   /* background position korlam */
   background-position: top left, bottom right;
@@ -81,19 +95,19 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0 38px 0 230px;
-   align-items: center; 
+  align-items: center;
 }
 
 .banner-greetings {
   font-size: 45px;
   font-weight: 600;
-   margin: 0; 
+  margin: 0;
 }
 
 .banner-title {
   font-size: 85px;
   font-weight: 700;
-   margin: 0; 
+  margin: 0;
 
 }
 
@@ -101,4 +115,27 @@ header {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 64px;
+}
+
+/* main design  */
+main{
+  margin: 0 230px;
+
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.about-up-part{
+  text-align: center;
+}
+.about-container{
+  padding: 130px 150px;
+  border-radius: 16px;
+}
+.about-options{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
