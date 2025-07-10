@@ -168,3 +168,43 @@ main section{
   font-size: 16px;
   color: #757575;
 }
+
+
+/* designing resume  */
+.resume-container{
+  display: flex;
+  gap: 40px;
+}
+.resume-left-side h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.resume-left-side h4{
+  font-size: 25px;
+  font-weight:600;
+}
+.resume-left-side h5{
+  font-size: 20px;
+  font-weight:bold;
+}
+.resume-left-side p{
+  font-size: 16px;
+}
+
+
+
+.resume-right-side h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.resume-right-side h4{
+  font-size: 25px;
+  font-weight:600;
+}
+.resume-right-side h5{
+  font-size: 20px;
+  font-weight:bold;
+}
+.resume-right-side p{
+  font-size: 16px;
+}
