@@ -15,10 +15,12 @@
   font-size:35px ;
   font-weight: bold;
   color: #181818;
+  text-align: center;
 }
 .section-description{
   font-size:18px ;
   color: #757575;
+  text-align: center;
 }
 .color-dark-3 {
   color: #757575;
@@ -117,7 +119,16 @@ header {
   margin-bottom: 64px;
 }
 
-/* main design  */
+/* main design starts from here!
+main{
+  margin: 0 230px;
+
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}  */
 main{
   margin: 0 230px;
 
@@ -127,9 +138,7 @@ main section{
   margin-top: 130px;
   margin-bottom: 130px;
 }
-.about-up-part{
-  text-align: center;
-}
+
 .about-container{
   padding: 130px 150px;
   border-radius: 16px;
@@ -138,4 +147,24 @@ main section{
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+
+/* skills section design  */
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill-box{
+  /* border: 2px solid red; */
+  box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+ padding: 40px;
+ border-radius: 5px;
+}
+.skills-container h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.skills-container p{
+  font-size: 16px;
+  color: #757575;
 }
